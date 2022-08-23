@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    font-family: 'roboto';
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.desconto {
+    background-color: #1CD1B0;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 18px;
+    text-align:Left;
+    vertical-align: Top;
+    padding:10px;
+    
+
+}
+
+.super_herois { 
+    background-color: #00669F;
+    height: 120px;
+    padding:28px 28px 26px;
+    font-size: 40px;
+    font-style: Regular;
+    font-family: Roboto;
+    font-weight: 400;
+
+
+}
+
+footer{
+    background-color: #00669F;
+    padding: 16px 16px 28px;
+    color:#FFF9F9;
+
+}
