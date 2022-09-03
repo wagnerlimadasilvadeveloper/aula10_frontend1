@@ -1,41 +1,197 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 * {
-    font-family: 'roboto';
     box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    background-color: #fff;
+    min-height: 1080px;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.barra_desconto {
+    background: #1CD1B0;
+    height: 38px;
 }
 
 .desconto {
-    background-color: #1CD1B0;
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 15px;
-    line-height: 18px;
-    text-align:Left;
-    vertical-align: Top;
-    padding:10px;
-    
-
+    vertical-align: middle;
+    line-height: 38px;
+    padding: 10px;
 }
 
-.super_herois { 
-    background-color: #00669F;
-    height: 120px;
-    padding:28px 28px 26px;
+.titulo {
+    vertical-align: middle;
+    line-height: 101px;
+    padding-left: 28px;
+    text-align: left;
     font-size: 40px;
-    font-style: Regular;
-    font-family: Roboto;
-    font-weight: 400;
+}
 
+.barra_titulo {
+    width: auto;
+    height: 101px;
+    background-color: #00669F;
+}
+
+.barra_inferior {
+    background: #00669F;
+    height: 51px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.direitos {
+    position: absolute;
+    padding: 16px 28px 16px;
+    color: #fff9f9;
+}
+
+.perfis{
+    position: absolute;
+    top: 223.99px;
+    left: 112px;
+    bottom: 203px;
+    width: 834px;
+    height: 597.1px;
+}
+
+.capa_batman {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 374px;
+    height: 218.94px;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(../img/Mask\ Group-1.png);
+}
+
+.heart_batman{
+    position: absolute;
+    width: 33.86px;
+    height: 30px;
+    left: 23.7px;
+    top:16.93px;
+    background-image: url(../img/Vector.png);
+}
+
+.foto_batman{
+    position: absolute;
+    width: 135.43px;
+    height: 133.17px;
+    border-radius: 100%;
+    background-color: #fff;
+    left: 119.57px;
+    top: 143.33px;
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1-1.png);
+}
+
+.perfil_batman {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 374px;
+    height: 379.2px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.capa_arlequina {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 374px;
+    height: 218.94px;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(../img/Mask\ Group.png);
+}
+
+.heart_arlequina{
+    position: absolute;
+    width: 33.86px;
+    height: 30px;
+    right: 316.01px;
+    top:16.93px;
+    background-image: url(../img/Vector.png);
+}
+
+.foto_arlequina{
+    position: absolute;
+    width: 135.43px;
+    height: 133.17px;
+    top: 143.33px;
+    right: 119.57px;
+    border-radius: 100%;
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+}
+.perfil_arlequina {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 374px;
+    height: 379px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn{
+    width: 145.34px;
+    height: 54.76px;
+    background-color: #00669F;
+    border: none;
+}
+
+#btn_batman{
+    position: absolute;
+    right: 113.93px;
+    bottom: 20.85px;
+}
+
+#btn_arlequina{
+    position: absolute;
+    right: 122.36px;
+    bottom: 20.85px;
 
 }
 
-footer{
-    background-color: #00669F;
-    padding: 16px 16px 28px;
-    color:#FFF9F9;
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #F3F3F3;
+}
+
+p{
+    position: absolute;
+    top: 152.3px;
+    margin-left: 36px;
+    margin-right: 36px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    width: 301.33px;
+    height: 127.53px;
+    
+}
+
+h2{
+    position: absolute;
+    margin-top: 83.31px;
+    text-align: center;
+    width: 374px;
 
 }
